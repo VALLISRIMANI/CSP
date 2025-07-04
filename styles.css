@@ -31,6 +31,7 @@ header h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2e7d32;
     font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 header h4 {
@@ -283,6 +284,7 @@ a:hover {
 
 .hidden {
   opacity: 0;
+  max-height: 0;
   visibility: hidden;
   pointer-events: none;
   z-index: 0;
@@ -297,11 +299,11 @@ a:hover {
 
 @media (max-width: 768px) {
   header h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   
   header h4 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .slide {
