@@ -6,6 +6,6 @@
 
 # 🔩 Tech Stack
 
-> HTML
-> CSS
+> HTML | 
+> CSS |
 > JavaScript
